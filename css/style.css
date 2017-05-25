@@ -9,7 +9,7 @@ body {
 nav ul {
 	padding: 10px;
 	overflow: auto;
-	background-color: white;
+	background-color: #E8CCBF;
 	list-style: none; /*this takes the bullet points of  */
 }
 
@@ -39,6 +39,24 @@ nav a:hover {
 	text-align: center;
 	color: #fff;
 	
+}
+
+.main-content {
+	padding: 20px;
+	margin: 20px;
+	background-color: #E8CCBF;
+	font-style: italic;
+	font-family: serif;
+	font-size: 18px;
+	line-height: 34px;
+	text-align: center;
+	color: #fff;
+}
+
+/* .img-50 {
+	width: 50%;
+	display: block;
+	margin: 10px auto;
 }
 
 /*h1 {
