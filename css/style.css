@@ -1,9 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600i');
+
 * {
     box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
 }
 
 body {
 	background-color: #925F62;
+	font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+	background-color: #B23A48;
+	margin: 10px 0px;
+	padding: 10px;
 }
 
 nav ul {
@@ -45,13 +56,30 @@ nav a:hover {
 	padding: 20px;
 	margin: 20px;
 	background-color: #E8CCBF;
-	font-style: italic;
 	font-family: serif;
 	font-size: 18px;
 	line-height: 34px;
 	text-align: center;
 	color: #fff;
 }
+
+/* These are utility classes ================== */
+
+.centertext {
+	font-style: italic;
+	text-align: center;
+	color: #fff;
+}
+
+.contact-nav {
+	padding: 10px;
+	overflow: auto;
+	background-color: #E8CCBF;
+	list-style: none;
+	
+}
+
+
 
 /* .img-50 {
 	width: 50%;
