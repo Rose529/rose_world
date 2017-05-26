@@ -63,6 +63,15 @@ nav a:hover {
 	color: #fff;
 }
 
+label {
+	display: block;
+}
+
+textarea {
+	height: 150px;
+	width: 250px;
+}
+
 /* These are utility classes ================== */
 
 .centertext {
@@ -78,6 +87,15 @@ nav a:hover {
 	list-style: none;
 	
 }
+
+ .contact-navli {
+	float: left; /* aligns nav side by side */
+	/*width: 33.33%;*/
+	/*text-align: center;*/
+	/*border: 2px solid pink;*/
+} 
+
+	
 
 
 
