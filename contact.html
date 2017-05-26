@@ -6,18 +6,49 @@
 		<link rel="stylesheet" href="css/style.css" type="text/css">
 	</head>
 	<body>
-	<div class="contact-nav">
+	<nav>
 	<ul>
-			<li><a href="index.html">Home</a></li>
+			<!-- <li class="contact-navli"> -->
+				<li><a href="index.html">Home</a></li>
 			<li><a href="#">About</a></li>
 			<li><a href="contact.html">Contact</a></li>
+			</li>
 		</ul>
-	</div>
-		<div>
+	</nav>
+		<!-- <div>
 		<ul>
 			 	<li>Email</li>
 			 	<li>Pages</li>
 			 </ul>
-		</div>
+		</div> -->
+		<section class="main-content">
+			<h2 class="center-text">Send Me a Message</h2>
+			<form>
+				<lable>
+					Name:
+					<input type="text" name="name" placeholder="name">
+				</label>
+				<label>
+					Email:
+					<input type="text" name="email" placeholder="Email">
+				</label>
+				<label>
+					Subject:
+					<input type="text" name="subject" placeholder="Subject">
+				</label>
+				<label>
+					Message: <br>
+					<textarea name="message"></textarea>
+					<!--<input type="text" name="message" placeholder="Subject"> -->
+				</label>
+				<label>
+					<input type="radio" name="subscribe" value="yes">
+				</label>
+				<label>
+					<input type="radio" name="subscribe" value="no">
+				</label>
+				<button type="submit">Submit</button>
+			</form>
+		</section>
 	</body>
 </html>
